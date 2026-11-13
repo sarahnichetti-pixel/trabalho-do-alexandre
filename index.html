@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-one Cascavel | Loja Oficial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://jsdelivr.net">
+  </head>
+  <body>
+  
+    <!-- 1. NAVBAR COM LINKS (Home, Sobre, Serviços, Contato) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Z-ONE <span class="text-primary">Cascavel</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- 2. CARROSSEL DE IMAGENS -->
+    <header id="home">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_a0Tpx7-gEv-ngYJij7OlFj5F3hrwTFR_0XXXn4HRlZDn2tE7LnapXvU&s=10" class="d-block w-100 object-fit-cover" alt="" style="height: 400px;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h2>Bem-vindo à Z-one Cascavel</h2>
+              <p>As melhores novidades e atendimento especial para você.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDR-WB20zEQaoN4ZZUqxX9sUtXFNhTLfjYhJnT0Txshg&s=10" class="d-block w-100 object-fit-cover" alt="" style="height: 400px;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h2>Qualidadade e Variedade</h2>
+              <p>Entregas rápidas em toda Cascavel e região.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </header>
+  
+    <main class="py-5">
+      <!-- 3. DUAS COLUNAS DE TAMANHO 6: TEXTO E BOTÃO + IMAGEM (SOBRE) -->
+      <section id="sobre" class="container.fluid px-5 mb-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h2 class="fw-bold mb-3">Sobre a Z-one Cascavel</h2>
+            <p class="text-muted">
+              A Z-one é referência em Cascavel, Paraná, trazendo uma seleção exclusiva de produtos, atendimento de excelência e compromisso com cada cliente. Trabalhamos para oferecer a melhor experiência de compra presencial e entrega na cidade.
+            </p>
+            <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+          </div>
+          <div class="col-md-6">
+            <img src="https://picsum.photos" alt="Sobre a Z-one" class="img-fluid rounded shadow">
+          </div>
+        </div>
+      </section>
+  
+      <!-- 4. SEÇÃO DE CARDS COM SERVIÇOS (3 a 6 cards) -->
+      <section id="servicos" class="bg-light py-5 mb-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Nossos Serviços</h2>
+            <p class="text-muted">O que a Z-one oferece para você em Cascavel</p>
+          </div>
+          <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0">
+                <img src="https://picsum.photos" class="card-img-top" alt="Serviço 1">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Atendimento Personalizado</h5>
+                  <p class="card-text text-muted">Consultoria dedicada para ajudar você a escolher o produto ideal.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0">
+                <img src="https://picsum.photos" class="card-img-top" alt="Serviço 2">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Entrega Local</h5>
+                  <p class="card-text text-muted">Realizamos entregas rápidas em toda a cidade de Cascavel-PR.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0">
+                <img src="https://picsum.photos" class="card-img-top" alt="Serviço 3">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Troca Garantida</h5>
+                  <p class="card-text text-muted">Processo de troca de produtos ágil e sem burocracia para sua comodidade.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- 5. DUAS COLUNAS DE TAMANHO 6: IMAGEM + TEXTO E BOTÃO (AO CONTRÁRIO DA PRIMEIRA) -->
+      <section class="container px-5 mb-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0 order-2 order-md-1">
+            <img src="https://picsum.photos" alt="Experiência Z-one" class="img-fluid rounded shadow">
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <h2 class="fw-bold mb-3">Qualidade Que Você Confia</h2>
+            <p class="text-muted">
+              Venha nos fazer uma visita ou entre em contato pelo nosso atendimento digital. Estamos sempre renovando nosso estoque para trazer novidades incríveis.
+            </p>
+            <a href="#contato" class="btn btn-dark">Saiba Mais</a>
+          </div>
+        </div>
+      </section>
+  
+      <!-- 6. CONTATO: FORMULÁRIO + INFORMAÇÕES + GOOGLE MAPS -->
+      <section id="contato" class="container.fluid bg-light py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Contato e Localização</h2>
+            <p class="text-muted">Entre em contato ou visite nossa loja em Cascavel</p>
+          </div>
+          <div class="row g-4">
+            <!-- Formulário de Contato -->
+            <div class="col-lg-6">
+              <div class="card shadow-sm border-0 p-4 h-100">
+                <h4 class="fw-bold mb-3">Envie sua mensagem</h4>
+                <form>
+                  <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(45) 99999-9999" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                </form>
+              </div>
+            </div>
+  
+            <!-- Informações de Contato + Mapa do Google Maps -->
+            <div class="col-lg-6">
+              <div class="card shadow-sm border-0 p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <h4 class="fw-bold mb-3">Informações da Loja</h4>
+                  <ul class="list-unstyled mb-4">
+                    <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i><strong>Endereço:</strong> Cascavel, Paraná - PR</li>
+                    <li class="mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i><strong>Telefone:</strong> (45) 99999-0000</li>
+                    <li class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i><strong>E-mail:</strong> contato@zonecascavel.com.br</li>
+                    <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i><strong>Horário:</strong> Seg a Sáb: 08:00 às 19:00 | Dom: 15:00 às 19:00</li>
+                  </ul>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+                  <iframe 
+                    src="https://google.com" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
